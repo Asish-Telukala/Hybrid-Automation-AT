@@ -1,0 +1,11 @@
+<suite name="Cucumber Suite">
+    <test name="Cucumber Tests">
+        <classes>
+            <class name="runner.ApiTestRunner">
+                <methods>
+                    <include name="cucumber.options" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
